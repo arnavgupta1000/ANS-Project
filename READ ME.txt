@@ -1,0 +1,37 @@
+Welcome to NSA SYSTEMS !!!
+
+This is a software, which will help the user in managing his Factory's worker. The software can store the Adhaar Number, Name, Designation, and Salary(per month) of workers. 
+The software has functions that will mark attendance, record over time, and pay salaries. It also shows the total salary that the user needs to pay him, according to
+the worker's attendance and overtime hours
+
+When you run the software, you will see a welcome screen, having one button - "Enter Password"
+Press it 
+You will be directed to the password page. Enter your password and press Enter
+If your password is correct you will be redirected to the main screen else it will say "wrong password, retry"
+
+In the main page, you will see three buttons - "Worker", "Salary" and "Exit"
+
+if you press Worker, you will be redirected to a screen, in which you'll see a table, having information about the workers' Adhaar Number, Name, Designation, and Salary(per month).
+You'll see four buttons at the bottom - "Add Worker", "Edit Worker", "Remove Worker" and "Return".
+Add Worker - It will allow the user to add a worker's detail
+Edit Worker - It will allow the user to edit a worker's detail except for Adhaar Number
+Remove Worker - It allows the user to remove a worker
+
+If you press Salary, you will be redirected to a screen, in which you'll see a table, having information about the worker's Adhaar Number, Name, Attendance, Holidays, Overtime, and due salary.
+You'll see four buttons at the bottom - "Mark Attendance", "Overtime", "Give Salary" and "Return"
+Mark Attendance - It will ask you if each worker is present or not
+Overtime - it will ask for the worker's Adhaar number and number of hours and update the salary accordingly
+give salary - it resets the table
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Note:-
+To successfully run the software, ensure :
+- Your device has .py file interpreter
+- Your device has PIP
+- Your device has MySQL
+- Your device has MySQL Python connector
+- You have to edit the path of images accordingly on line 111, 138, 534
+- Never leave any Entry box empty, if no value, then enter - "-", but never leave empty
+- You may Enter a Name with surname or middle name or both 
+
+You can change your password by editing the string on line 124
